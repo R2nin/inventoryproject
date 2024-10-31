@@ -68,3 +68,6 @@ Este projeto é um sistema de inventário de patrimônio para uma instituição 
 - PostgreSQL/SQLite
 - HTML/CSS
 - JavaScript
+
+- ## Projeto Guiado
+- https://unstuckstudy.com/share/6a3c9813-4a00-493a-af45-303859bf5220 (2/22)

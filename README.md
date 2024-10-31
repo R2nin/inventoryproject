@@ -70,4 +70,5 @@ Este projeto é um sistema de inventário de patrimônio para uma instituição 
 - JavaScript
 
 - ## Projeto Guiado
-- https://unstuckstudy.com/share/6a3c9813-4a00-493a-af45-303859bf5220 (2/22)
+- https://unstuckstudy.com/share/6a3c9813-4a00-493a-af45-303859bf5220 (2/22) 30/10/2022
+- https://unstuckstudy.com/c/0d782fed-e448-4fc5-99a2-a6f7df035039 (3/22) 31/10/2022

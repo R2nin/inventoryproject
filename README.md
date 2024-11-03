@@ -76,3 +76,6 @@ Este projeto é um sistema de inventário de patrimônio para uma instituição 
 
 ![image](https://github.com/user-attachments/assets/e5ce92d2-55b0-40d3-bae2-e30ccf720bc4)
 
+![image](https://github.com/user-attachments/assets/d7151586-4f54-4045-87c6-1535fabff928)
+
+

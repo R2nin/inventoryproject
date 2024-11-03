@@ -74,4 +74,5 @@ Este projeto é um sistema de inventário de patrimônio para uma instituição 
 - https://unstuckstudy.com/c/0d782fed-e448-4fc5-99a2-a6f7df035039 (3/22) 31/10/2022
 - https://unstuckstudy.com/c/e90949a3-bab8-4f23-bf72-31ab4dabc51b (4/22) 31/10/2022
 
-  ![image](https://github.com/user-attachments/assets/24a321a3-fb1b-4399-bcb6-b5251f72cbbe)
+![image](https://github.com/user-attachments/assets/e5ce92d2-55b0-40d3-bae2-e30ccf720bc4)
+

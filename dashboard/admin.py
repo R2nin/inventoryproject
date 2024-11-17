@@ -6,5 +6,7 @@ admin. site.site_header = 'Almoxarifado'
 # Register your models here.
 class ProductAdmin (admin.ModelAdmin):
     list_display = ('name', 'quantity', 'category')
+    list_filter = ['category']
+
 admin.site.register(Product, ProductAdmin)
 #admin.site.unregister(Group)

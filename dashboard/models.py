@@ -13,4 +13,4 @@ class Product(models.Model):
     quantity = models.PositiveIntegerField(null=True)
 
     def __str__(self):
-        return f'{self.name}-{self.quantity}'
+        return f'{self.name}-{self.quantity}-{self.category}'

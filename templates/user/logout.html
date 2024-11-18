@@ -10,8 +10,13 @@
                     <div class="alert alert-info mb-4">
                         <h4 class="alert-heading">Você foi desconectado</h4>
                         <p class="mb-0">Sua sessão foi encerrada com sucesso.</p>
+                        <hr>
+                        <p class="mb-0">Deseja fazer login novamente?</p>
                     </div>
-                    <a href="{% url 'dashboard-index' %}" class="btn btn-primary">Voltar para a Página Inicial</a>
+                    <div class="d-grid gap-2">
+                        <a href="{% url 'user-login' %}" class="btn btn-primary mb-2">Fazer Login</a>
+                        <a href="{% url 'dashboard-index' %}" class="btn btn-outline-secondary">Voltar para a Página Inicial</a>
+                    </div>
                 </div>
             </div>
         </div>

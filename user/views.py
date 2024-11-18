@@ -18,5 +18,5 @@ def register(request):
 
 def logout_view(request):
     logout(request)
-    messages.success(request, 'Você foi desconectado com sucesso!')
-    return redirect('dashboard-index')
+    messages.info(request, 'Você foi desconectado com sucesso!')
+    return render(request, 'user/logout.html', {'messages': messages.get_messages(request)})

@@ -18,12 +18,18 @@ from django.contrib import admin
 from django.urls import path, include
 from user import views as user_views
 from django.contrib.auth import views as auth_views
+from user.forms import LoginForm
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('dashboard.urls')),
     path('register/', user_views.register, name='user-register'),
-    path('login/', auth_views.LoginView.as_view(template_name='user/login.html'), name='user-login'),
+    path('login/', auth_views.LoginView.as_view(
+        template_name='user/login.html',
+        authentication_form=LoginForm,
+        redirect_authenticated_user=True,
+        next_page='dashboard-index'
+    ), name='user-login'),
     path('logout/', user_views.logout_view, name='user-logout'),
     path('password-reset-complete/', auth_views.PasswordResetCompleteView.as_view(template_name='user/password_reset_complete.html'), name='password_reset_complete'),
 ]
